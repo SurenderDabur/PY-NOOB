@@ -1,0 +1,27 @@
+#https://www.facebook.com/surender.hacker/
+
+def add(x,y):
+	return x+y
+def sub(x,y):
+	return x-y
+def mul(x,y):
+	return x*y
+def div(x,y):
+	return x/y
+
+print("Operators= +, -, *, /")
+
+choice = input("Enter your operator: ")
+num1 = float(input("1st Number: "))
+num2 = float(input("2nd Number: "))
+
+if choice=='+':
+	print(add(num1,num2))
+elif choice=='-':
+	print(sub(num1,num2))
+elif choice=='*':
+	print(mul(num1,num2))
+elif choice=='/':
+	print(div(num1,num2))
+else:
+	print("Invalid Operator!!!")
